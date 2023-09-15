@@ -49,6 +49,7 @@ pipeline {
             echo "Deploying your app"
 
             sh """echo "\$(date) - INFO: Dummy log line" > logs.txt """
+            sh """sleep 30 """
 
         }
 
